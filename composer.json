@@ -1,0 +1,36 @@
+{
+  "name": "virusphp/laravel-autonumber",
+  "description": "Laravel package to create autonumber for Eloquent model",
+  "keywords": [
+    "laravel",
+    "eloquent",
+    "autonumber"
+  ],
+  "homepage": "https://github.com/virusphp/autonumbering",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Slamet Sugandi",
+      "email": "packercyber@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/config": "^5.1|^6.0|^7.0|^8.0",
+    "illuminate/database": "^5.1|^6.0|^7.0|^8.0",
+    "illuminate/support": "^5.1|^6.0|^7.0|^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Virusphp\\AutoNumber\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Virusphp\\AutoNumber\\AutoNumberServiceProvider"
+      ]
+    }
+  }
+}
