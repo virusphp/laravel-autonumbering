@@ -1,8 +1,8 @@
 <?php
 
-namespace Alfa6661\AutoNumber;
+namespace Virusphp\AutoNumber;
 
-use Alfa6661\AutoNumber\Observers\AutoNumberObserver;
+use Virusphp\AutoNumber\Observers\AutoNumberObserver;
 
 trait AutoNumberTrait
 {
