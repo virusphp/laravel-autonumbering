@@ -1,5 +1,5 @@
 {
-  "name": "virusphp/laravel-autonumber",
+  "name": "virusphp/autonumbering",
   "description": "Laravel package to create autonumber for Eloquent model",
   "keywords": [
     "laravel",
