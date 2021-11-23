@@ -1,8 +1,8 @@
 <?php
 
-namespace Alfa6661\AutoNumber\Observers;
+namespace Virusphp\AutoNumber\Observers;
 
-use Alfa6661\AutoNumber\AutoNumber;
+use Virusphp\AutoNumber\AutoNumber;
 use Illuminate\Database\Eloquent\Model;
 
 class AutoNumberObserver

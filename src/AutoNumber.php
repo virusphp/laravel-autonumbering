@@ -1,8 +1,8 @@
 <?php
 
-namespace Alfa6661\AutoNumber;
+namespace Virusphp\AutoNumber;
 
-use Alfa6661\AutoNumber\Models\AutoNumber as AutoNumberModel;
+use Virusphp\AutoNumber\Models\AutoNumber as AutoNumberModel;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
